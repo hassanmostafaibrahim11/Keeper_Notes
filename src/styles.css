@@ -1,0 +1,106 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 96vh;
+}
+body {
+  margin: 0;
+  background-color: rgb(253, 253, 191);
+}
+header {
+  background-color: orange;
+  color: #fff;
+  padding: 2px;
+  text-align: left;
+  font-family: cursive;
+}
+footer {
+  position: sticky;
+  top: 97%;
+  font-family: serif;
+  color: rgb(252, 159, 21);
+}
+.createArea {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+textarea {
+  font-size: medium;
+  resize: none;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-family: cursive;
+}
+.singleNote {
+  color: rgb(252, 140, 13);
+  width: 15%;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(253, 227, 153);
+  font-family: cursive;
+  position: relative;
+  font-weight: bold;
+  font-size: medium;
+  min-height: 200px;
+  text-align: left;
+}
+p {
+  padding-left: 5px;
+}
+input {
+  font-family: cursive;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-bottom: 1px solid rgb(235, 233, 230);
+}
+.notesContainer {
+  display: flex;
+  flex-direction: row;
+}
+.add {
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+  color: white;
+  cursor: pointer;
+}
+.del {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  color: white;
+  background-color: orange;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  cursor: pointer;
+}
+h3 {
+  background-color: rgb(250, 178, 44);
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  padding: 3px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
